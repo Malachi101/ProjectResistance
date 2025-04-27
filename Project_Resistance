@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Resistance</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #003366;
+        }
+        nav {
+            background-color: #003366;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #66ccff;
+        }
+        section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+        h1, h2 {
+            margin-bottom: 1rem;
+        }
+        .btn {
+            background-color: #003366;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0055aa;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+    <a href="#tips">Tips</a>
+</nav>
+
+<section id="home">
+    <h1>Welcome to Project Resistance</h1>
+    <p>Building strength. Inspiring change. Resisting limits.</p>
+    <a href="#services" class="btn">Explore Our Services</a>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>At Project Resistance, we believe in pushing boundaries. Our mission is to empower you through fitness, discipline, and inspiration.</p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <p>Personal training, group classes, nutritional coaching, and custom fitness plans designed just for you.</p>
+</section>
+
+<section id="testimonials">
+    <h2>Testimonials</h2>
+    <p>"Project Resistance changed my life. The trainers are incredible, and the community feels like family." - Jordan S.</p>
+    <p>"I've never felt stronger, both physically and mentally!" - Taylor M.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@projectresistance.com</p>
+    <p>Phone: (123) 456-7890</p>
+</section>
+
+<section id="tips">
+    <h2>Fitness Tips</h2>
+    <p>Stay consistent. Focus on form. Rest is just as important as hustle. Believe in your journey.</p>
+</section>
+
+</body>
+</html>
+
